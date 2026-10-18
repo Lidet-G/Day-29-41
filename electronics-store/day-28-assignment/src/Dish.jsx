@@ -1,0 +1,41 @@
+import { useState } from "react";
+import PropTypes from "prop-types";
+import Card from "./Card";
+
+function Dish({ name, price, spicy, currency = "ETB", onAdd }) {
+  const [count, setCount] = useState(0);
+
+  function handleAdd() {
+    setCount(count + 1);
+    onAdd(price);
+  }
+
+  return (
+    <Card>
+      <h3>
+        {name} {spicy && "Spicy"}
+      </h3>
+
+      <p>
+        {price} {currency}
+      </p>
+
+      <button onClick={handleAdd}>
+        Add
+      </button>
+
+      {count > 0 && <p>Added: {count}</p>}
+    </Card>
+  );
+}
+
+Dish.propTypes = {
+  name: PropTypes.string.isRequired,
+  price: PropTypes.number.isRequired,
+  spicy: PropTypes.bool,
+  currency: PropTypes.string,
+  onAdd: PropTypes.func.isRequired
+};
+
+export default Dish;
+

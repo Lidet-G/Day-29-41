@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="390" viewBox="0 0 520 390" role="img" aria-label="WIRED EARBUDS">
+  <rect width="520" height="390" rx="24" fill="#f4ead9"/>
+  <circle cx="260" cy="195" r="145" fill="#ffffff" opacity=".45"/>
+  <path d="M190 135q-10-25 15-35t30 15l25 50 25-50q5-25 30-15t15 35l-35 75-5 80q-2 25-30 25t-30-25l-5-80z" fill="#99702f"/><path d="M260 175v75" stroke="#f4ead9" stroke-width="9" stroke-linecap="round"/>
+  <text x="260" y="355" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#99702f">WIRED EARBUDS</text>
+</svg>

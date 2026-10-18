@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="390" viewBox="0 0 520 390" role="img" aria-label="LAPTOP STAND">
+  <rect width="520" height="390" rx="24" fill="#e9eee1"/>
+  <circle cx="260" cy="195" r="145" fill="#ffffff" opacity=".45"/>
+  <path d="M145 275l75-150h80l75 150z" fill="#5b7540"/><path d="M190 275l55-115h30l55 115z" fill="#e9eee1"/><rect x="120" y="275" width="280" height="20" rx="8" fill="#5b7540"/><rect x="230" y="295" width="60" height="35" rx="6" fill="#5b7540"/>
+  <text x="260" y="355" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="700" letter-spacing="2" fill="#5b7540">LAPTOP STAND</text>
+</svg>
